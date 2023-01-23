@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import axios from 'axios';
+import Bestbooks from './Bestbooks';
+import Carousel from 'react-bootstrap/Carousel';
 
 
 class App extends React.Component {
@@ -46,7 +48,7 @@ class App extends React.Component {
             this.state.books.length > 0 &&
             <>
               {this.state.books.map(book => {
-                return <p key={book._id}>{book.name} is a {book.color} cat</p>
+                return <p key={book._id}>{book.name} is a {book.color} book</p>
               })}
             </>
           }

@@ -1,6 +1,6 @@
-# Project Name
+# Project Name can-of-books
 
-**Author**: Team Member Names Goes Here
+**Author**: Eli
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
@@ -34,3 +34,5 @@ Start time: _____
 Finish time: _____
 
 Actual time needed to complete: _____
+
+
