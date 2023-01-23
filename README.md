@@ -35,4 +35,30 @@ Finish time: _____
 
 Actual time needed to complete: _____
 
+## Logistical
+What hours will you be available to communicate? all day
 
+What platform will you use to communicate (ie. Slack, phone …)? slack
+
+How often will you take breaks? hourly
+
+What is your plan if you start to fall behind? create a plan
+
+## Cooperative
+Make a list of each parson’s strengths. 
+Eli/ dedication, commitment
+Tre/research, user my resources to solve problems
+
+
+How can you best utilize these strengths in the development of your application? communicate
+
+In what areas do you each want to develop greater strength? getting more comfortable with full stack implementation
+
+Knowing that every person in your team needs to understand the code, how do you plan to approach the day-to-day development? communication is key
+
+## Conflict Resolution
+What will your team do if one person is pulling all the weight while the other person is not contributing? communication, reach out to that person and create more opportunities to help them understand
+
+What will your team do if one person is taking over the project and not letting the other member contribute? communicate and let them know how we feel to resolve this
+
+How will you approach each other and the challenge of building an application knowing that it is impossible for two people to be at the exact same place in understanding and skill level? create a a plan to execute and adjust when needed
