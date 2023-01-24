@@ -11,6 +11,7 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
+import { title } from 'process';
 
 
 class App extends React.Component {
@@ -53,6 +54,12 @@ class App extends React.Component {
     this.getBooks();
   }
 // HandleOpenModal that change setState  to true
+handleOpenModal = () => {
+  this.setState({
+    showmodal: true,
+    title: title, 
+  })
+}
 // Handler to close the modal
 // Handler to grab form data and make my post request
 
