@@ -48,17 +48,17 @@ export default class Bookformmodal extends Component {
             <Form onSubmit={this.handleBookSubmit}>
               <Form.Group controlId="title">
                 <Form.Label>Title</Form.Label>
-                <Form.Control type="text" defaultValue={this.props.book.name} />
+                <Form.Control type="text" defaultValue={this.props.books} />
               </Form.Group>
-              <Form.Group controlId="descripton">
+              {/* <Form.Group controlId="descripton">
                 <Form.Label>description</Form.Label>
                 <Form.Control type="text" defaultValue={this.props.book.description} />
               </Form.Group>
               <Form.Group controlId="status">
                 <Form.Label>status</Form.Label>
                 <Form.Control type="text" defaultValue={this.props.book.status} />
-                {<Form/>
               <Button type="submit">Update Books</Button>
+              </Form.Group> */}
             </Form>
           </Container>
           {/* <Button variant="secondary" onClick={handleClose}>
