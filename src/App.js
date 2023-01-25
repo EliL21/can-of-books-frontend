@@ -90,7 +90,7 @@ class App extends React.Component {
     this.getBooks();
   }
   // HandleOpenModal that change setState  to true
-  handleOpenModal = (title, description, status) => {
+  handleOpenModal = () => {
     this.setState({
       showModal: true,
 
