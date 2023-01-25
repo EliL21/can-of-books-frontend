@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import { ModalBody } from "react-bootstrap";
 
@@ -39,17 +39,21 @@ export default class Bookformmodal extends Component {
                 <Form.Control type="text" />
               </Form.Group>
               <Form.Group controlId="description">
-                <Form.Label>description</Form.Label>
-
+                <Form.Label>Description</Form.Label>
+              <Form.Control type = "text" />
+              </Form.Group>
+              <Form.Group controlId="status">
+                <Form.Label>Status</Form.Label>
+              <Form.Control type = "text" />
               </Form.Group>
             </Form>
           </Modal.Body>
-          <Container >
-            <Form onSubmit={this.handleBookSubmit}>
+          {/* <Container > */}
+            {/* <Form onSubmit={this.handleBookSubmit}>
               <Form.Group controlId="title">
                 <Form.Label>Title</Form.Label>
-                <Form.Control type="text" defaultValue={this.props.books} />
-              </Form.Group>
+                <Form.Control type="text" defaultValue={this.props.books} /> */}
+              {/* </Form.Group> */}
               {/* <Form.Group controlId="descripton">
                 <Form.Label>description</Form.Label>
                 <Form.Control type="text" defaultValue={this.props.book.description} />
@@ -59,8 +63,8 @@ export default class Bookformmodal extends Component {
                 <Form.Control type="text" defaultValue={this.props.book.status} />
               <Button type="submit">Update Books</Button>
               </Form.Group> */}
-            </Form>
-          </Container>
+            {/* </Form> */}
+          {/* </Container> */}
           {/* <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>

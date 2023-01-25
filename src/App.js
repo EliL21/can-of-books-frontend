@@ -21,6 +21,9 @@ class App extends React.Component {
     this.state = {
       books: [],
       showModal: false,
+      // title: '',
+      // description: '',
+      // status: ''
 
     }
   }
@@ -87,7 +90,7 @@ class App extends React.Component {
     this.getBooks();
   }
   // HandleOpenModal that change setState  to true
-  handleOpenModal = () => {
+  handleOpenModal = (title, description, status) => {
     this.setState({
       showModal: true,
 
